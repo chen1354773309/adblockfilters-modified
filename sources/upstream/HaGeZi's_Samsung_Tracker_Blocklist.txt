@@ -1,9 +1,9 @@
 !
 ! Title: HaGeZi's Samsung Tracker Blocklist
 ! Description: Blocks Samsung native broadband trackers that track your activity.
-! Version: 1.0.0.41
+! Version: 1.0.0.48
 ! Homepage: https://github.com/hagezi/dns-blocklists
-! Last modified: 2026-05-13T01:03:52.992Z
+! Last modified: 2026-08-04T23:26:48.008Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -58,6 +58,7 @@
 ||samsung.ecorebates.com^
 ||samsung.telemetry.eyeo.com^
 ||ehg-samsungusa.hitbox.com^
+||ureca.samsungapps.com.ad.mexnet.de^
 ||samsung.com.ssl.sc.omtrdc.net^
 ||samsungcard.sc.omtrdc.net^
 ||samsungnorthamerica.sc.omtrdc.net^
@@ -100,8 +101,11 @@
 ||bldr.mkt.samsung.com^
 ||analytics.mpay.samsung.com^
 ||images.partnersupport.samsung.com^
+||dc.di.runestone.samsung.com^
+||dls.di.runestone.samsung.com^
+||orsdls.di.runestone.samsung.com^
+||orsfs.di.runestone.samsung.com^
 ||api.runestone.samsung.com^
-||di.runestone.samsung.com^
 ||lp.smartbusiness.samsung.com^
 ||tracking.smartbusiness.samsung.com^
 ||images.ssbusiness.samsung.com^
@@ -121,13 +125,13 @@
 ||acr-in-prd.samsungcloud.tv^
 ||acr-kr-prd.samsungcloud.tv^
 ||acr-mx-prd.samsungcloud.tv^
-||acr-nz-prd.samsungcloud.tv^
 ||acr-us-prd.samsungcloud.tv^
 ||acr0.samsungcloudsolution.com^
 ||devicelog.samsungcloudsolution.net^
 ||prderrordumphsm.samsungcloudsolution.com^
 ||prderrordumpssm.samsungcloudsolution.net^
 ||report.gras.samsungdm.com^
+||us-report.gras.samsungdm.com^
 ||diagmon-policy.samsungdm.com^
 ||diagmon-serviceapi.samsungdm.com^
 ||dev-apigw.samsungdmroute.com^

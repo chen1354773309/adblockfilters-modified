@@ -1,9 +1,9 @@
 !
 ! Title: Peter Lowe's Blocklist
 ! Description: Blocklist with hostnames of ad and tracking servers
-! Version: 1.0.17.26
+! Version: 1.0.17.57
 ! Homepage: https://pgl.yoyo.org/adservers/
-! Last modified: 2026-06-06T09:01:31.037Z
+! Last modified: 2026-08-08T11:11:16.848Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -23,6 +23,7 @@
 ||30ads.com^
 ||3337723.com^
 ||33across.com^
+||360yield-basic.com^
 ||360yield.com^
 ||3lift.com^
 ||3o9s.short.gy^
@@ -148,7 +149,6 @@
 ||ad.virtual-nights.com^
 ||ad.wavu.hu^
 ||ad.weatherbug.com^
-||ad.wsod.com^
 ||ad.wz.cz^
 ||ad.xiaomi.com^
 ||ad.xmovies8.si^
@@ -190,6 +190,7 @@
 ||adcast.deviantart.com^
 ||adcel.co^
 ||adcell.de^
+||adcenter.net^
 ||adclick.com^
 ||adclient1.tucows.com^
 ||adclixx.net^
@@ -274,6 +275,7 @@
 ||admarvel.com^
 ||admaster.com.cn^
 ||admatchly.com^
+||adme2.click^
 ||admedia.com^
 ||admeld.com^
 ||admeridianads.com^
@@ -514,8 +516,6 @@
 ||ads.pinterest.com^
 ||ads.planet.nl^
 ||ads.pni.com^
-||ads.pof.com^
-||ads.powweb.com^
 ||ads.printscr.com^
 ||ads.prisacom.com^
 ||ads.prod.webservices.mozgcp.net^
@@ -595,7 +595,6 @@
 ||ads1.virtual-nights.com^
 ||ads10.speedbit.com^
 ||ads180.com^
-||ads2.brazzers.com^
 ||ads2.contentabc.com^
 ||ads2.femmefab.nl^
 ||ads2.gamecity.net^
@@ -751,6 +750,7 @@
 ||adtrack.voicestar.com^
 ||adtraction.com^
 ||adtrade.net^
+||adtrk1.com^
 ||adultadvertising.com^
 ||adv-adserver.com^
 ||adv.donejty.pl^
@@ -773,12 +773,14 @@
 ||advertise.com^
 ||advertiseireland.com^
 ||advertiserurl.com^
+||advertising.amazon.de^
 ||advertising.com^
 ||advertisingbanners.com^
 ||advertisingbox.com^
 ||advertmarket.com^
 ||advertmedia.de^
 ||advertpro.ya.com^
+||advertracker.com^
 ||advertserve.com^
 ||advertwizard.com^
 ||advideo.uimserv.net^
@@ -813,8 +815,6 @@
 ||affiliate.treated.com^
 ||affiliatefuture.com^
 ||affiliates.allposters.com^
-||affiliates.babylon.com^
-||affiliates.globat.com^
 ||affiliates.streamray.com^
 ||affiliates.thinkhost.net^
 ||affiliates.thrixxx.com^
@@ -835,7 +835,6 @@
 ||airpush.com^
 ||aistat.net^
 ||ak0gsh40.com^
-||alchemist.go2cloud.org^
 ||alclick.com^
 ||alenty.com^
 ||alexa-sitestats.s3.amazonaws.com^
@@ -850,9 +849,12 @@
 ||als-svc.nytimes.com^
 ||amazingcounters.com^
 ||amazon-adsystem.com^
+||amcnreil.pro^
 ||americash.com^
 ||amidsttruly.com^
+||ampscamp.net^
 ||amung.us^
+||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-production.hapyak.com^
 ||analytics.adpost.org^
 ||analytics.algoepico.net^
@@ -878,6 +880,7 @@
 ||analytics.posttv.com^
 ||analytics.santander.co.uk^
 ||analytics.swiggy.com^
+||analytics.tempy.email^
 ||analytics.tiktok.com^
 ||analytics.xelondigital.com^
 ||analytics.yahoo.com^
@@ -891,6 +894,7 @@
 ||anrdoezrs.net^
 ||anstrex.com^
 ||anxiousapples.com^
+||api-ext.bixbitemarketing.com^
 ||api.affiliations.site^
 ||api.amplitude.com^
 ||api.appmetrica.yandex.ru^
@@ -971,14 +975,12 @@
 ||bagsurprise.com^
 ||banik.redigy.cz^
 ||banner.ambercoastcasino.com^
-||banner.buempliz-online.ch^
 ||banner.cotedazurpalace.com^
 ||banner.easyspace.com^
 ||banner.elisa.net^
 ||banner.finzoom.ro^
 ||banner.goldenpalace.com^
 ||banner.inyourpocket.com^
-||banner.linux.se^
 ||banner.media-system.de^
 ||banner.nixnet.cz^
 ||banner.noblepoker.com^
@@ -994,7 +996,6 @@
 ||bannergrabber.internet.gr^
 ||bannerimage.com^
 ||bannermall.com^
-||bannermanager.bnr.bg^
 ||bannerpower.com^
 ||banners.adultfriendfinder.com^
 ||banners.amigos.com^
@@ -1139,6 +1140,7 @@
 ||bwp.download.com^
 ||c.apple.com^
 ||c.bigmir.net^
+||c.trkn.it^
 ||c1exchange.com^
 ||c212.net^
 ||cakesdrum.com^
@@ -1151,6 +1153,7 @@
 ||calypsocapsule.com^
 ||campaign.bharatmatrimony.com^
 ||caniamedia.com^
+||capitalopera.com^
 ||capriciouscorn.com^
 ||captainbicycle.com^
 ||captainstick.com^
@@ -1188,6 +1191,7 @@
 ||cdn.onesignal.com^
 ||cdn.scarabresearch.com^
 ||cdn.segment.com^
+||cdn.smalk.ai^
 ||cdnondemand.org^
 ||cedato.com^
 ||celtra.com^
@@ -1309,6 +1313,7 @@
 ||cloudguppy.com^
 ||clrstm.com^
 ||cluster.adultworld.com^
+||clustrmaps.com^
 ||cmp.dmgmediaprivacy.co.uk^
 ||cmvrclicks000.com^
 ||cnomy.com^
@@ -1319,6 +1324,7 @@
 ||codeadnetwork.com^
 ||cognitiv.ai^
 ||cointraffic.io^
+||coldbalance.com^
 ||collector-dev.cdp-dev.cnn.com^
 ||collector.cdp.cnn.com^
 ||colonize.com^
@@ -1361,6 +1367,7 @@
 ||copycarpenter.com^
 ||copyrightaccesscontrols.com^
 ||coremetrics.com^
+||correctedcode.com^
 ||cosmosjackson.com^
 ||count.rin.ru^
 ||count.west263.com^
@@ -1734,7 +1741,6 @@
 ||getclicky.com^
 ||getintent.com^
 ||getmyads.com^
-||getxmlisi.com^
 ||giddycoat.com^
 ||glasscoyote.com^
 ||glisteningsign.com^
@@ -1754,6 +1760,7 @@
 ||go.scmagazine.com^
 ||go.xlirdr.com^
 ||go2affise.com^
+||go2cloud.org^
 ||godseedband.com^
 ||goingplatinum.com^
 ||goldstats.com^
@@ -1768,7 +1775,6 @@
 ||goqon.com^
 ||gostats.com^
 ||gothamads.com^
-||gotoyahoo.com^
 ||gotraffic.net^
 ||gp.dejanews.com^
 ||grandfatherguitar.com^
@@ -1805,7 +1811,6 @@
 ||hbb.afl.rakuten.co.jp^
 ||hbopenbid.pubmatic.com^
 ||heap.com^
-||heimi-lwx.com^
 ||hellobar.com^
 ||helpcollar.com^
 ||hentaicounter.com^
@@ -1842,6 +1847,7 @@
 ||hollowafterthought.com^
 ||homelycrown.com^
 ||homepageking.de^
+||honeybutterbliss.com^
 ||honorableland.com^
 ||hostedads.realitykings.com^
 ||hotjar.com^
@@ -1898,7 +1904,6 @@
 ||imp.i312864.net^
 ||impossibleexpansion.com^
 ||imprese.cz^
-||impressionmedia.cz^
 ||impressionmonster.com^
 ||improvedigital.com^
 ||imrworldwide.com^
@@ -1940,7 +1945,6 @@
 ||interreklame.de^
 ||ioam.de^
 ||ip.ro^
-||ip193.cn^
 ||iperceptions.com^
 ||ipredictive.com^
 ||ipstack.com^
@@ -1949,10 +1953,12 @@
 ||is-tracking-pixel-api-prod.appspot.com^
 ||islandwebhelp.com^
 ||itop.cz^
+||itrackly.com^
 ||ivwbox.de^
 ||ivykiosk.com^
 ||iyfbodn.com^
 ||iyfnzgb.com^
+||izcle.com^
 ||j93557g.com^
 ||jads.co^
 ||jamexport.com^
@@ -2056,7 +2062,6 @@
 ||lightstep.medium.systems^
 ||lijit.com^
 ||limecodesign.com^
-||link-booster.de^
 ||link.axios.com^
 ||link.beelivery.com^
 ||link.email.davidlloydclubs.co.uk^
@@ -2109,8 +2114,6 @@
 ||logsss.com^
 ||logua.com^
 ||look.djfiln.com^
-||look.ichlnk.com^
-||look.opskln.com^
 ||look.ufinkln.com^
 ||loopme.com^
 ||loudlunch.com^
@@ -2134,6 +2137,7 @@
 ||madvertise.de^
 ||magicadz.co^
 ||magicaljoin.com^
+||magnetise.io^
 ||magsrv.com^
 ||mail-ads.google.com^
 ||maltiverse.lt.acemlnc.com^
@@ -2437,7 +2441,9 @@
 ||otto-images.developershed.com^
 ||ourdreamstaticpages.pages.dev^
 ||outbrain.com^
+||outerwords.com^
 ||overconfidentfood.com^
+||overkick.com^
 ||overture.com^
 ||ow.pubmatic.com^
 ||owebmoney.ru^
@@ -2445,7 +2451,6 @@
 ||owneriq.net^
 ||oxado.com^
 ||oxcash.com^
-||oxen.hillcountrytexas.com^
 ||p-n.io^
 ||p7cloud.net^
 ||paa-reporting-advertising.amazon^
@@ -2498,6 +2503,7 @@
 ||pgpartner.com^
 ||pheedo.com^
 ||phoenix-adrunner.mycomputer.com^
+||pi.pdfjs.express^
 ||piano.io^
 ||pimproll.com^
 ||ping.ublock.org^
@@ -2505,7 +2511,6 @@
 ||pippio.com^
 ||piquantpigs.com^
 ||pix.spot.im^
-||pixel.condenastdigital.com^
 ||pixel.keywee.co^
 ||pixel.sojern.com^
 ||pixel.watch^
@@ -2524,6 +2529,7 @@
 ||pluckypocket.com^
 ||plugrush.com^
 ||pocketfaucet.com^
+||pocustrack.com^
 ||poemprompt.com^
 ||pointlessprofit.com^
 ||pointroll.com^
@@ -2536,7 +2542,6 @@
 ||popmyads.com^
 ||popplantation.com^
 ||popub.com^
-||popunder.ru^
 ||popunhot1.blogspot.com^
 ||popup.msn.com^
 ||popupmoney.com^
@@ -2610,6 +2615,7 @@
 ||puffypaste.com^
 ||puffypull.com^
 ||puffypurpose.com^
+||pulse.genki.world^
 ||pureclarity.net^
 ||pushengage.com^
 ||pushno.com^
@@ -2619,7 +2625,6 @@
 ||pxf.io^
 ||pxl-mailtracker.com^
 ||pxl.iqm.com^
-||pymx5.com^
 ||q.azcentral.com^
 ||q1connect.com^
 ||qa-analytics.com^
@@ -2669,6 +2674,7 @@
 ||rate.ru^
 ||rayjump.com^
 ||rcadserver.com^
+||re-direct.pl^
 ||reachjunction.com^
 ||reactx.com^
 ||readingguilt.com^
@@ -2703,15 +2709,14 @@
 ||reklamdsp.com^
 ||relmaxtop.com^
 ||rememberdiscussion.com^
-||remox.com^
 ||report-1.appmetrica.webvisor.com^
 ||report-2.appmetrica.webvisor.com^
 ||report-partners.appmetrica.yandex.net^
 ||report.ap.yandex-net.ru^
 ||report.appmetrica.yandex.net^
 ||republika.onet.pl^
-||resalag.com^
 ||rescuerhino.com^
+||researchlog.dbresearch.com^
 ||resonantbrush.com^
 ||resonate.com^
 ||responsiveads.com^
@@ -2745,6 +2750,7 @@
 ||rmedia.boston.com^
 ||roaddynamics.com^
 ||roar.com^
+||robotrefinery.com^
 ||robotreplay.com^
 ||rockabox.co^
 ||rockagainst.com^
@@ -3060,6 +3066,7 @@
 ||t.insigit.com^
 ||t.irtyd.com^
 ||t.leady.com^
+||t.marketing.goindigo.in^
 ||t.mmtrkr.com^
 ||t.news.browns-restaurants.co.uk^
 ||t.notif-colissimo-laposte.info^
@@ -3201,6 +3208,7 @@
 ||track.unear.net^
 ||track.vcdc.com^
 ||track.viewdeos.com^
+||track.wewilltrcku.com^
 ||track1.viewdeos.com^
 ||trackalyzer.com^
 ||trackedlink.net^
@@ -3209,9 +3217,12 @@
 ||tracker.cdnbye.com^
 ||tracker.colatv88xb.cc^
 ||tracker.icerocket.com^
-||tracker.metricswave.com^
 ||tracker.mmdlv.it^
+||tracker.optin-lead.com^
 ||tracker.samplicio.us^
+||tracking.adstrategysites.com^
+||tracking.casheddy.com^
+||tracking.cybertips.uk^
 ||tracking.epicgames.com^
 ||tracking.hyros.com^
 ||tracking.ibxlink.com^
@@ -3223,6 +3234,7 @@
 ||tracking.netalerts.io^
 ||tracking.olx-st.com^
 ||tracking.orixa-media.com^
+||tracking.p-l-m.com^
 ||tracking.wetter.at^
 ||tracking01.walmart.com^
 ||tracking101.com^
@@ -3273,6 +3285,7 @@
 ||trkn.us^
 ||trkoptimizer.com^
 ||trkpnt.ongage.net^
+||trkweb.clinch.co^
 ||trmit.com^
 ||truckstomatoes.com^
 ||truculentrate.com^
@@ -3281,6 +3294,7 @@
 ||truehits2.gits.net.th^
 ||trust.titanhq.com^
 ||trustx.org^
+||tsa-f.webex.com^
 ||tsa.webex.com^
 ||tsyndicate.com^
 ||tsyndicate.net^
@@ -3323,7 +3337,6 @@
 ||urlcash.net^
 ||us.a1.yimg.com^
 ||userreplay.com^
-||userreplay.net^
 ||users.maxcluster.net^
 ||utils.mediageneral.net^
 ||utl-1.com^
@@ -3340,7 +3353,6 @@
 ||vcommission.com^
 ||veille-referencement.com^
 ||velismedia.com^
-||venetrigni.com^
 ||vengefulgrass.com^
 ||ventivmedia.com^
 ||venturead.com^
@@ -3348,6 +3360,7 @@
 ||vertamedia.com^
 ||verticalmass.com^
 ||vervewireless.com^
+||verybark.com^
 ||vgnp3trk.com^
 ||vibrantsundown.com^
 ||vid.pubmatic.com^
@@ -3356,7 +3369,6 @@
 ||videoadex.com^
 ||videoadstech.org^
 ||videoegg.com^
-||videostats.kakao.com^
 ||vidora.com^
 ||view4cash.de^
 ||viglink.com^
@@ -3368,7 +3380,6 @@
 ||visual-pagerank.fr^
 ||visualrevenue.com^
 ||vivads.net^
-||vivtracking.com^
 ||vmmpxl.com^
 ||voicefive.com^
 ||volatilevessel.com^
@@ -3409,7 +3420,6 @@
 ||webtraffic.se^
 ||webtraxx.de^
 ||webxcdn.com^
-||welved.com^
 ||werbung.meteoxpress.com^
 ||wetrack.it^
 ||whaleads.com^
@@ -3424,13 +3434,13 @@
 ||wickedreports.com^
 ||widget.educationdynamics.com^
 ||widget.privy.com^
+||widgets.teads-xo.com^
 ||wikia-ads.wikia.com^
 ||wikiquotations.com^
 ||win.iqm.com^
 ||window.nixnet.cz^
 ||wintricksbanner.googlepages.com^
 ||wirecomic.com^
-||wirypaste.com^
 ||wisepops.com^
 ||witch-counter.de^
 ||wittypopcorn.com^
