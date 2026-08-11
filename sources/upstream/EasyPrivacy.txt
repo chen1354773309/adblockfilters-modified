@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +imVxsyNixWZ5IVUhUA5XQ
-! Version: 202608100321
+! Checksum: eW7EmY1UpJmPuA3HlPf99A
+! Version: 202608110322
 ! Title: EasyPrivacy
-! Last modified: 10 Aug 2026 03:21 UTC
+! Last modified: 11 Aug 2026 03:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3691,6 +3691,7 @@ omni.soundestlink.com$image
 ||iconnode.com^
 ||id-ward.com^
 ||identitypxl.app^
+||idsequoia.ai^
 ||idx.lat^
 ||ilius.net^
 ||impactcdn.com^
@@ -10009,6 +10010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rudder-tracking.rudderstack.com^
 ||rudderstack.com/v1/track
 ||rum-collector.leaderint.workers.dev^
+||rum.aliyuncs.com^
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.corewebvitals.io^
@@ -13346,6 +13348,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||groove.so/unlocker.js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
+||grow.urbandictionary.network^
 ||gsght.com/twizards.js
 ||gso.amocrm.com/humans/
 ||gtm.lercio.it^
@@ -13984,6 +13987,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||react-admin-telemetry.marmelab.com^
 ||read.amazon.*/uploadMetrics/
 ||realitytvworld.com/images/pixel.gif
+||realself.com/v1/browser-logging-service/browser/log
+||realself.com/v1/page-interactions-events
 ||rec.banggood.com^
 ||recommend.9gag.com/interact/event/
 ||reddit.com/static/pixel.png$image
