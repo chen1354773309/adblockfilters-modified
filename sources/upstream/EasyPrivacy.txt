@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: eW7EmY1UpJmPuA3HlPf99A
-! Version: 202608110322
+! Checksum: KjzbhC4wQiYOPc0BYvG24A
+! Version: 202608120332
 ! Title: EasyPrivacy
-! Last modified: 11 Aug 2026 03:22 UTC
+! Last modified: 12 Aug 2026 03:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8380,6 +8380,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cardinalcommerce.com/prod/log
 ||caspionlog.appspot.com^
 ||castify-trk.playitviral.com^
+||catfront.dianping.com^
 ||cbsaavideo.com/measurements/
 ||cbsivideo.com/measurements/
 ||cbso.uk.net^
@@ -10589,6 +10590,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.bababam.com^
 ||tracking.brandmentions.com^
 ||tracking.buygoods.com^
+||tracking.carbonatixaudio.com^
 ||tracking.cerdmann.com^
 ||tracking.chilipiper.com^
 ||tracking.dealeranalytics.com^
@@ -12687,6 +12689,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.x.com/live_pipeline/events?
 ||apigw.scmp.com/metrics/monitoring
 ||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
+||aplus.qwen.ai/aplus.monitor.load_cna_success?
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||apm.qwant.com^
 ||app-bnkr.b-cdn.net/js/lv.js
@@ -51925,6 +51928,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ac.dun.163yun.com/v2/collect?
 ||accwww9.53kf.com^
 ||adstats.tencentmusic.com^
+||aichaoxing.com/res/cx_stat.js
 ||al.autohome.com.cn^
 ||alicdn.com/f/pcdn/i.php?
 ||ams.lelong.com.my^
