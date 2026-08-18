@@ -1191,6 +1191,8 @@ www.youtube.com##+js(no-xhr-if, /\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d
 ! https://github.com/uBlockOrigin/uAssets/issues/33914
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-
+! https://www.rd.com/
+! /wp-content/plugins/tmbi-*/js/*
 !#endif
 ||petametrics.com/*/__activity.
 ||paytr.com/securemetric/
@@ -3268,6 +3270,9 @@ $uritransform=/#Echobox=[\d]{10}$//,to=iltalehti.fi|hs.fi
 ||stats.index.hr^
 ||index.hr/tracking-beacon
 ||index.hr/api/Stats/
+
+! https://github.com/uBlockOrigin/uAssets/issues/34145
+||sms24.me/numbers/pixel
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
