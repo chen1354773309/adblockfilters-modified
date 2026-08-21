@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: g6+1VpDxSifW3YkfY3JxMw
-! Version: 202608200222
+! Checksum: mLJbFMesZXeoaaZuPRqomA
+! Version: 202608210232
 ! Title: EasyPrivacy
-! Last modified: 20 Aug 2026 02:22 UTC
+! Last modified: 21 Aug 2026 02:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9202,6 +9202,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infusionsoft.com^*/getTrackingCode?
 ||ingest.in.signoz.cloud^
 ||ingest.make.rvapps.io^
+||ingest.promptwatch.com^
 ||ingesteer.services-prod.nsvcs.net^
 ||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingress.trendii.com^
@@ -10254,6 +10255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statsig.anthropic.com^
 ||statsjs.klevu.com^
 ||statt-collect.herokuapp.com^
+||statuspage.io/embed/frame
 ||stg-data-collector.playbuzz.com^
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
@@ -11737,9 +11739,15 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.find.gr^
 ||stats-real-clients.zentech.gr^
 ! Hebrew
+||analytics.maskyoo.net^
+||api.whtvr.ai/api/sdk/analytics/
 ||callindex.co.il/campaign/send_analytics.js
+||colbass.com/Service/Analytics.asmx/
+||dxmcdn.com/dta/content-targeting.js
+||radar.wizzo.media^
 ||selectika.com/selectika-pixel.min.js
 ||tag.weezmo.com^
+||vi-serve.com/tagLoader.js
 ||walla.co.il/stats/
 ! Hungarian
 ||gpr.hu/pr.pr?
@@ -12478,6 +12486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acast.com/api/stats
 ||accor.com/g/collect?
 ||accuterm.com/data/stat.js
+||acjs.aliyun.com^
 ||acronymfinder.com/~/tr.ashx
 ||actionviewphotography.com/api/stats?
 ||activate.latimes.com/pc/caltimes/?pulse2001=
@@ -12676,6 +12685,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asb.co.nz/analytics/
 ||asset.d5techs.com/script/track.min.js
 ||asset.d5techs.com/script/utm.min.js
+||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com|aliexpress.us
+||assets.aliexpress-media.com/g/AWSC/*/fireyejs.js$script,domain=aliexpress.com|aliexpress.us
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
@@ -12953,11 +12964,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cvs.com/tnadstlinj.js
 ||cwt.citywire.info^
 ||cxgpt1.goindigo.in/forward/v2/track
+||cybernews.com/clientfpid/
 ||d.analyticsmania.com^
 ||d.skk.moe^
 ||d401.dollartree.com^
 ||d712.theinformation.com^
 ||dabu.askmediagroup.com^
+||dailydevstatus.com/embed/script.js
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
@@ -14099,6 +14112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
+||slashdot.org/software/$image
 ||slc.cbssports.com/events
 ||slickdeals.net/ajax/stats/
 ||slipstream.skyscanner.net^
@@ -52270,9 +52284,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||skroutza.skroutz.gr/skroutza.min.js
 ||vidads.gr/imp/
 ! Hebrew
+||0404.co.il^$ping
+||bhol.co.il/system/js/analytics.js
 ||bravo.israelweather.co.il^
 ||cellstats.mako.co.il^
 ||ds.haaretz.co.il^
+||ext.bhol.co.il^$ping
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||stats.mako.co.il^
