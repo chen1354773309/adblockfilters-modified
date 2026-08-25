@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JIJZcMK30GAWKXBP3gL7Nw
-! Version: 202608240232
+! Checksum: z4O8dLnhKVFhGnBI32ETmA
+! Version: 202608250221
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2026 02:32 UTC
+! Last modified: 25 Aug 2026 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1249,6 +1249,7 @@
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
+/identity/token/verify?browser_id=
 /if/services/tdg?hs=
 /IIQUniversalID.min.js
 /image.ng/*
@@ -1833,6 +1834,7 @@
 /pixel?tag=
 /pixel_identifier.js
 /pixel_iframe.php
+/pixel_taboola_events.js
 /pixel_tracking.js
 /pixel_tracking?
 /pixel_V2.js
@@ -2128,6 +2130,7 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
@@ -4067,6 +4070,7 @@ omni.soundestlink.com$image
 ||adku.co^$third-party
 ||adku.com^$third-party
 ||admantx.com^$third-party
+||admaster.cc^$third-party
 ||admaster.com.cn^$third-party
 ||admetric.io^$third-party
 ||adobedtm.com^$third-party,domain=~adobe.com|~costco.com
@@ -7144,6 +7148,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.fr^$third-party
 ||sync.tv^$third-party
 ||tget.me^$third-party
+||time1.me^$third-party
 ||tinyclues.com^$third-party
 ||titag.com^$third-party
 ||toc.io^$third-party
@@ -7979,6 +7984,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.foresee.com^
 ||analytics.formstack.com^
 ||analytics.genial.ly^
+||analytics.getlimy.ai^
 ||analytics.getsnworks.com^
 ||analytics.gokwik.co^
 ||analytics.google.com^$third-party
@@ -8053,6 +8059,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tout.com^
 ||analytics.unibuddy.co^
 ||analytics.unilogcorp.com^
+||analytics.upress.io^
 ||analytics.vanillaforums.com^
 ||analytics.vdo.ai^
 ||analytics.vendemore.com^
@@ -10055,6 +10062,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sdk-service.nsureapi.com/events
 ||sdk.51.la^$third-party
 ||sdk.appsflyer.com^
+||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdrive.skoda-auto.com^
 ||sdtagging.azureedge.net^
@@ -12544,6 +12552,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||al.levels.fyi/api/event
 ||alb.reddit.com^
 ||alicdn.com/AWSC/et/
+||alicdn.com/AWSC/WebUMID/
 ||aliexpress.com/ts?
 ||alipay.com/web/bi.do?ref=
 ||aljazeera.com/thirdparty/nr.js
@@ -12691,6 +12700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asset.d5techs.com/script/utm.min.js
 ||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com|aliexpress.us
 ||assets.aliexpress-media.com/g/AWSC/*/fireyejs.js$script,domain=aliexpress.com|aliexpress.us
+||assets.aliexpress-media.com/g/awsc/webumid/
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
@@ -13248,6 +13258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futureparty.com/nectar_analytics
 ||futureparty.com/page_view
 ||g-scale.org/scripts/EventLog.js
+||g.alicdn.com/AWSC/fireyejs/
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -14858,6 +14869,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||idstatus.sky.com^
 ||img2021.navyfederal.org^
 ||imgs.signifyd.com^
+||kaspersky.com/assets/logSender.
 ||log-185a61e7.bendigobank.com.au^
 ||log-2ffe60ee.westpac.com.au^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
@@ -51909,6 +51921,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
 ||stats.panet.com^
+||strema.top/ping/?
 ||tags.aljazeera.net^
 ! Bosnian
 ||insight.olx.ba^
@@ -52304,6 +52317,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||stats.mako.co.il^
+||track.wesell.co.il^
 ||walla.co.il/CountsHP.asp?
 ||walla.co.il/impression/
 ! Hungarian

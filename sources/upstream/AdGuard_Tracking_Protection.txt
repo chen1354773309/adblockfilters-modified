@@ -100563,6 +100563,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||p.softmedia.cz^
 ||analytics.sportera.fans^
 ||analytics.sen.go.kr^
 ||scollect.17173.com^
@@ -314729,6 +314730,8 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||olympusxyz.com/_nuxt/CIJNsars.js
+||leakgallery.com/api/lg/
 ||xn--pckua2a7gp15o89zb.com/api/am/v1/t?
 ||hna.de/fdn/
 ||yandex.ru/appcry/event|
@@ -322829,6 +322832,7 @@ dlsdk.appsflyer.com^
 !
 ! NOTE: Regular rules
 !
+||visit-server.inmobi-choice.io^
 ||adashx.m.taobao.com^
 ||logs.profi.ru^
 ||w.inmobi.com^
@@ -324158,6 +324162,8 @@ d4?appid*type*
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238999
+@@||js-cdn.dynatrace.com/jstag/$domain=fido.ca
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238444
 @@||googletagmanager.com/gtm.js$domain=talent.lowes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238355
@@ -330291,6 +330297,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||lessonsnetwork.com^
 ||libraryfacts.com^
 ||libraryvalue.com^
+||lifecoverdirect.com^
 ||liftedknowledge.com^
 ||lightenafterthought.com^
 ||lighttalon.com^
@@ -330397,6 +330404,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||memopilot.com^
 ||memorizematch.com^
 ||memorizeneck.com^
+||mentalreef.com^
 ||menteechain.com^
 ||mentorsticks.com^
 ||meowcustom.com^
@@ -330424,6 +330432,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||miscjewelry.com^
 ||miscreantmoon.com^
 ||missionrewards.com^
+||missvent.com^
 ||mistervillas.com^
 ||mistyhorizon.com^
 ||mittencattle.com^
@@ -330488,6 +330497,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||networklast.com^
 ||newarkdriving.com^
 ||newsbotnet.com^
+||newscompiler.com^
 ||newsuccesssecret.com^
 ||nexttopchef.com^
 ||nicefollows.com^
@@ -330521,6 +330531,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||nudgeduck.com^
 ||nullnorth.com^
 ||nullradar.com^
+||numericblog.com^
 ||numerousnest.com^
 ||oafishchance.com^
 ||oafishobservation.com^
@@ -331672,7 +331683,6 @@ abema.tv$$script:contains(NREUM)
 abema.tv#%#//scriptlet('ubo-rmnt', 'script', 'NREUM')
 !#endif
 ! phileweb.com
-phileweb.com#%#//scriptlet('ubo-set-attr', 'span[class] img.lazyload[width]', 'src', '[data-src]')
 ||clarity.ms/tag/$important,script,domain=phileweb.com
 ! e-begin.jp
 e-begin.jp#$#.inviewSection:not(.is-show) { transform: translateY(0) !important; opacity: 1 !important; }
