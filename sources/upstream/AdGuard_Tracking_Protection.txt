@@ -2847,7 +2847,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||74.55.82.102^$third-party
 ||77tracking.com^$third-party
 ||79.125.117.123^$third-party
-||7bpeople.com^$third-party
 ||7eer.net^$third-party
 ||99stats.com^$third-party
 ||9nl.eu^$third-party
@@ -100570,6 +100569,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||pausible.flaq.ai^
+||stats.reanime.to^
+||stats.flixcloud.cc^
 ||posthog.worldshopping.global^
 ||aka.asiae.co.kr^
 ||analytics.watchott.org^
@@ -102238,8 +102240,6 @@ prd.api.bleacherreport.com^
 ||analytics.aklamio.com^
 ||collect.hollisterco.com^
 ||d17tqr44y57o31.cloudfront.net^
-||analytics-mkt.wemakeprice.com^
-||ad-log.wemakeprice.com^
 ||analytics.ubports.com^
 ||tracker.dcdn.baidu.com^
 ||apetite.index.hr^
@@ -103965,7 +103965,6 @@ prd.api.bleacherreport.com^
 ||webvitals.luxnet.ua^
 ||widget.perfectmarket.com^
 ||wl.yna.co.kr^
-||wlog.tmon.co.kr^
 ||wstat.ozon.ru^
 ||wt.soundestlink.com^
 ||wtbevents.pricespider.com^
@@ -314746,6 +314745,8 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||reanime.to/pv.js
+||flixcloud.cc/swetrix.js
 ||ondigitalocean.app/tracker.js
 ||appli.mixh.jp/appli.mixh.jp/app/*-track.php
 ||a.pixiv.org/yufulight-cdn/track.js
@@ -316145,7 +316146,6 @@ baseballpost.jp###highschool-pickup
 ||feedbackws.icloud.com/reportStats
 ||idmsa.apple.com/appleauth/jslog
 ppomppu.co.kr#%#//scriptlet('href-sanitizer', 'a[href^="https://s.ppomppu.co.kr?"][href*="&target="]', '?target', 'base64decode')
-baseballpost.jp###highschool-pickup
 berrykun.com##img[src*="a8.net/svt/"]
 ||xvp.imgix.net/assets/customer_tools/ip_checker-
 ||pub.pixels.ai/metrics-lib.js
@@ -317488,7 +317488,6 @@ news.ntv.co.jp,lmaga.jp,lasisa.net,president.jp##.recommend
 ||doda.jp/resources/dcfront/js/usrclkTracking.js
 ||hatarako.net/api/recommend/analyze_logger
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
-||sunknudsen.com/static/media/js/fathom
 ||assets.getpocket.com/web-utilities/public/static/te.js
 ||assets.askdoctors.jp/*/event-tracking
 ||travel.co.jp/js/analysis.js
@@ -317573,7 +317572,6 @@ cbssports.com##.taboola-recommends
 ||ezneering.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js
 ||unagi*.amazon.*/events/
 ||systemed.fr/itya.js
-||weather.go.kr/w/resources/js/logger
 ||hellosmpl.com^$script,third-party
 ||qualzz.com/assets/trackingScript/webtracking.js
 ||id.rambler.ru/api/v3/session/getRsidx
@@ -318326,7 +318324,6 @@ chinatimes.com##.popin-recommend
 ||petco.com/track-production/analytics.js
 ||publisher-assets.spot.im/ad/event-tracking/$xmlhttprequest,redirect=noopjs
 ||ace-sync.toast.com/sendid?sid=*&uid=
-||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
 ||cdn.adrise.tv/*/appboy.min.js
 ||cdn.adrise.tv/*/sentry/
 ||eiu.com/n/wp-content/plugins/eiu-google-tag-manager/assets/dist/js/eiu-google-tag-manager.min.js
@@ -319016,7 +319013,6 @@ the-ans.jp##.side-reccomend
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
 ||dtory.ebs.co.kr/wlo^
-||home.ebs.co.kr/ebsnews/logProce/logAjax
 ||newzit.com/setABframe.html
 ||seoul.co.kr/weblog/
 ||ewaline.su/stats.js
@@ -320519,7 +320515,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||visualstudio.com/v*/track$third-party
 ||wdr.de/*/tracker/
 ||web-t.9gag.com^
-||webmetrics.nintendo-europe.com^
 ||webstat.freaks4u.com^
 ||weg.de/etc/designs/comvel/clientlibs/tracking
 ||widgeo.net/compteur.php?
@@ -329353,6 +329348,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||berserkhydrant.com^
 ||bestboundary.com^
 ||bestclimbers.net^
+||bestcoffeemachine.net^
 ||bestshoesboot.com^
 ||bestsportsbra.com^
 ||betazebra.com^
@@ -330295,6 +330291,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||juicingoasis.com^
 ||jumbochalk.com^
 ||justconfig.com^
+||justfordocs.com^
 ||justicejudo.com^
 ||justlagoon.com^
 ||justpickaname.com^
@@ -331772,4 +331769,7 @@ bitdefender.com#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 !#if ext_ubol
 x.com#%#//scriptlet('ubo-no-xhr-if', '/i/api/1.1/flow/viewer.json')
 !#endif
+! https://forum.ru-board.com/topic.cgi?forum=5&topic=51666&start=1420#14
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'OfflineAudioContext', 'undefined')
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'navigator.bluetooth', 'undefined')
 
