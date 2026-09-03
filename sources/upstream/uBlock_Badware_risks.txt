@@ -1,9 +1,9 @@
 !
 ! Title: uBlock₀ filters – Badware risks
 ! Description: For sites documented to put users at risk of installing adware/crapware/malware, having login credentials stolen, etc. The purpose is to at least ensure a user is warned of the risks ahead.
-! Version: 1.0.22.57
+! Version: 1.0.22.60
 ! Homepage: https://github.com/uBlockOrigin/uAssets
-! Last modified: 2026-08-31T18:22:58.008Z
+! Last modified: 2026-09-02T16:21:14.036Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -461,6 +461,7 @@
 ||luxoriahub.shop^
 ||claude-ai.cyou^
 ||aisyncad.com^
+||cdn.streameet.top^
 ||webuzz.me^
 ||coup-ling.net^
 ||gokinjolove.jp^
@@ -2124,6 +2125,7 @@
 ||outloksupportbuzoningreso.glitch.me^
 ||outloksupport*.glitch.me^
 ||scanlonchiro.com^
+||openlive.chat^
 ||telegramhcn.com^
 ||webtelegram.eu.org^
 ||telegrambotsolution.pages.dev^
@@ -3066,3 +3068,8 @@
 ||cookie-whitelist.
 ||vipsunglassesindia.in^
 ||oakleysunglassesindia.com^
+||lieferanndo.de^
+||qemow.com^
+||bbcwebhosting.com^
+||ilyvo.com^
+||prof-noemie-sgzopjv.work^
