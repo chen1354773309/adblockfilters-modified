@@ -3766,6 +3766,8 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/240228
+forums.digitalspy.com#@#body .has-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236844
 @@||2ipcore.com^$domain=2ip.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234663
@@ -5798,10 +5800,18 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||jxdbvmmau.com^
+||e9zrvermi.com^
+||nqrsdhemqmfdry.com^
+||wrksb2gt0.com^
 ||mudguard68.com^
 ||pavxtxikkjrdfy.com^
 ||cq5nsp7kya.com^
 ||hjlra23r7r.com^
+||0x79jjyph7.com^
+||avqb7vrufi.com^
+||wylct1tjdf.com^
+||x6kd8l204b.com^
 ||c2vodqlmy.com^
 ||605abezk8.com^
 ||enwwlcrxi.com^
@@ -15282,6 +15292,8 @@ meijutt.*/js/pcjs/
 ||ab3de9.gamersky.com^
 ||teacher.php.cn/php/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
+||ping0.cc/images/fx/*.gif
+ping0.cc#?#div:has(>a>.tipbd)
 169bbs.com##.a_f
 kanju.ai##.movie-player-info-ad-grid
 kanju.ai##.movie-player-info-ad-heading
@@ -15328,8 +15340,6 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xdeles
-ping0.cc###adiright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
