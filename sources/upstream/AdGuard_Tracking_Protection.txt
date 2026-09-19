@@ -2460,7 +2460,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||clickcease.com^$third-party
 ||logs.juspay.in
 ||http-intake.logs.datadoghq.com^
-||logs.browser-intake-datadoghq.eu^
+||browser-intake-datadoghq.eu^
 ||logs.datadoghq.eu^
 ||logs.datadoghq.com^$third-party
 ||zprk.io^$third-party
@@ -100586,6 +100586,10 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||stats.stellar.rip^
+||dtam.thrive.today^
+||jnt.bild.de^
+||otl.minefun.io^
 ||counter.wargamings.net^
 ||analyticssec.overwolf.com^
 ||gadata.motorpresse.de^
@@ -100607,7 +100611,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||stats.dulo.
 ||clientlog.wanmei.com^
 ||jnt.welt.de^
-||agrau.aii.sh^
 ||emergency.zeta-ai.io^
 ||carmen2.golem.de^
 ||ue.a-bly.com^
@@ -314795,7 +314798,15 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||wlct-one.de/api/*/mtrcs/
+||oeamtc.at/*/js/cms.frontend._js.tracking/
+||spaziogames.it/6vzv/
+||batcave.biz/p/script.js
+||analyticsindiamag.com/~api/analytics|
+||s.omsolution.net/omStatApi/
+karofilm.ru,cinemastar.ru#%#//scriptlet('set-local-storage-item', 'device_uuid', '$remove$')
 ||gorbilet.ru/blog/js/metrics.js
+$xmlhttprequest,~third-party,method=post,domain=srnky.com|aii.sh|intercelestial.com|lnbz.la|clksz.com
 ||mediaexpert.pl/_internal/metrics/
 ||wargamings.net/png.php?id=
 ||iplayer.is/lib/tk.js
@@ -314843,8 +314854,6 @@ hokkaido-np.co.jp##.main > section:has(> #ai_recommend_section)
 ||journalreport.cn/mstatistics.js
 ||smartnews.com/*/monitoring?
 ||proson.gr/core/modules/statistics/
-||pahe.plus/*/api/v1/event|
-||intercelestial.com/*/api/v1/event|
 ||samsungmagazine.eu/log_imps.php
 ||negocios.com/assets/js/onm/onm-stats.
 ||sidecar.unext.jp/track/
@@ -321879,6 +321888,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! oita-press.co.jp
+||oita-press.co.jp^$cookie=guid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241391
 ||nikkei.com^$cookie=atlasId
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241302
@@ -327509,9 +327520,6 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=biomedglobal.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61456
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/60961
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||secure.quantserve.com/quant.js$domain=fruitlab.com
 ! https://github.com/AdguardTeam/AdguardFilters/pull/61240
 @@||googletagmanager.com/gtag/js$domain=klix.ba
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60887
@@ -329433,6 +329441,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||anxiousapples.com^
 ||applocus.com^
 ||applyless.com^
+||appsecstudio.com^
 ||aquaticowl.com^
 ||archswimming.com^
 ||arclet.net^
@@ -329591,6 +329600,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||boundlessargument.com^
 ||boundlessbrake.com^
 ||boundlessveil.com^
+||bowlershut.com^
 ||boxandcover.com^
 ||brainybasin.com^
 ||branchborder.com^
@@ -329855,6 +329865,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||cuddlycake.com^
 ||cuddlylab.com^
 ||cuddlylunchroom.com^
+||cuisinevoyager.com^
 ||culturedcamera.com^
 ||culturedfeather.com^
 ||cumbersomecarpenter.com^
@@ -330139,6 +330150,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||firsthoughtstudios.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
+||fishingrodsgalore.com^
 ||fishingtoolsbox.com^
 ||fishspies.com^
 ||fitgreatest.com^
@@ -330598,6 +330610,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||makesimpact.com^
 ||maliciousmusic.com^
 ||manamoment.com^
+||manateemotors.com^
 ||manydiamonds.com^
 ||manyfishes.com^
 ||mapbasin.com^
@@ -330699,6 +330712,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||mowgoats.com^
 ||muddledaftermath.com^
 ||muddledmemory.com^
+||muddlingthroughcode.com^
 ||mundanenail.com^
 ||mushroomgods.com^
 ||mushywaste.com^
@@ -330725,6 +330739,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||nectarbytes.com^
 ||needleaf.com^
 ||needyneedle.com^
+||neighborhoodbiketours.com^
 ||neighborlywatch.com^
 ||neonsites.com^
 ||nervoussummer.com^
@@ -330737,6 +330752,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||newsbotnet.com^
 ||newscompiler.com^
 ||newsuccesssecret.com^
+||newsvehicles.com^
 ||nexttopchef.com^
 ||nicefollows.com^
 ||nicehuh.com^
@@ -331056,6 +331072,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||redbasketball.com^
 ||redbricksoap.com^
 ||redexecs.com^
+||redmillgroup.com^
 ||reflectpaint.com^
 ||refundradar.com^
 ||regenergize.com^
@@ -331072,6 +331089,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||rentinfrared.com^
 ||rentpenny.com^
 ||repeatsweater.com^
+||repfineart.com^
 ||replaceroute.com^
 ||republicfarm.net^
 ||rescueothers.com^
@@ -331915,7 +331933,7 @@ bolighub.dk#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', 'gtm.js')
 ! chartbeat.js redirect
 ! Admiral
 247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pcwelt.de,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,theprovince.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com#%#//scriptlet('ubo-acs', 'document.createElement', 'admiral')
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,nj.com,oregonlive.com,ottawacitizen.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 ranker.com#%#//scriptlet('ubo-aost', 'HTMLElement.prototype.insertBefore', '/[A-Z] .+chunks\/\d{4}\./')
 reuters.com#%#//scriptlet('ubo-aost', 'admiral', '.js?')
 al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylive.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,masslive.com,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,silive.com,sporcle.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
