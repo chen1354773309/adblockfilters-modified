@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SyS6ucMU2QL4kt6d04jczA
-! Version: 202609280632
+! Checksum: 8WtH5x7Qbm8gdMq3TBxHCw
+! Version: 202609300632
 ! Title: EasyList China
-! Last modified: 28 Sep 2026 06:32 UTC
+! Last modified: 30 Sep 2026 06:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -92,10 +92,7 @@
 .com/js/alls_top.js
 .com/js/discor_list.js
 .com/js/LAD.js
-.com/img/bnnr1_
-.com/img/bnr1_*.gif
-.com/img/bnr2_*.gif
-.com/img/bnr3_*.gif
+.com/js/b3nr_
 .com/js/youlian.js
 .com/jsbjl/zhanqun
 .com/json/cctv.json?v=
@@ -1709,11 +1706,39 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||gangway97.com^
+||rwhyrlb8r2.com^
+||o17kbwlq9p.com^
+||ywxc.net^
+||baztfhhqiuvttm.com^
+||ht55hm12n2.com^
+||1o23ptd0sv.com^
+||p7w3bmhmns.com^
+||lk54dfg87.com^
+||2hqxy07fw.com^
+||jqopurafw.com^
+||ballast85.top^
+||vkdytplocrhlhm.com^
+||btsel5g.com^
+||ltdzz.com^
+||hweianpqxl.icu^
+||s6cfki4v4.com^
+||qxbpi331k.com^
+||5n131lck8.com^
+||s7jkxkm72.com^
+||9qvpcta0t.com^
+||js1lw9n6w.com^
+||rbru3ubey.com^
 ||stateroom28.com^
 ||qs2zdat2pi.com^
 ||xhhgjfpswovlvg.com^
 ||6ign0q6xb1.com^
 ||kpymx56ch3.com^
+||b56iy3m1jg.com^
+||m96v7deg59.com^
+||5e9rwtjh1s.com^
+||pzmu7go7i2.com^
+||gzx2d0jvwm.com^
 ||bulwark37.top^
 ||jxvylwrra.com^
 ||zellxviqqlhdpg.com^
@@ -11008,6 +11033,7 @@ meijutt.*/js/pcjs/
 ||huangguo.me/static/js/linePromo.
 !------------------------Specific element hiding rules------------------------!
 xc6b.com##.cHeadImg
+sohu.com##a[data-url*=".mediav.com"]
 hao123.com###float-ad-left
 ping0.cc##.xeeles
 ping0.cc###adjright
@@ -18774,8 +18800,6 @@ niuyankan.top###content > a
 .cn/cS389.js
 ||uaa.com/js/dxj.
 uaa.com##.popup_dialog_box
-wss://*.com:29*/$third-party
-wss://*.com:800*/$third-party,domain=~survev.io
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 ||lzbao.net/syster.
