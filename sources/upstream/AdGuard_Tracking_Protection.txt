@@ -628,7 +628,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||api.firwinds.site^
 ||geniuslinkcdn.com^
 ||opendatastats.net^$third-party
-||assets.onedollarstats.com^
+||onedollarstats.com^$third-party
+||lilstts.com^
 ||u.lessbutbetter.studio^
 ||analytics.autoodb.com^
 ||cdn.seline.com^
@@ -100593,6 +100594,11 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||data.petri.com^
+||c3.wildwolf.name^
+||tips.delt.io^
+||unami.delt.io^
+||servt.ergadx.com^
 ||one01.stright.bizris.com^
 ||analytics.infomaniak.com^
 ||biprx.n12.co.il^
@@ -314813,6 +314819,10 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||collector-pxebumdlwe.px-cloud.net/b/s/beacon
+||isratrip.net/platform/api/pub_funnel.php
+||a.nel.cloudflare.com/report/
+||delt.io/a/
 v-1.co.il#%#//scriptlet('set-local-storage-item', 'v1_device_id', '$remove$')
 ||api.cdnlivetv.tv/p2p-stats
 ||media.flixcar.com/log/
@@ -320949,6 +320959,8 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 ! Bad:  example.org#@##cookie
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/241008
+@@$cookie=_pcus,domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238722
 @@||hilton.com^$cookie=/^AMCVS?_.*AdobeOrg/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/231330
@@ -323065,9 +323077,9 @@ dlsdk.appsflyer.com^
 !
 ||api-sdk.beaconbank.jp^
 ||stream-log.profilepassport.jp^
-|||nt-stream-log.profilepassport.jp^
-|||pp3-sdk-api.profilepassport.jp^
-|||pp3-sdkdata-v2-ut.profilepassport.jp^
+||nt-stream-log.profilepassport.jp^
+||pp3-sdk-api.profilepassport.jp^
+||pp3-sdkdata-v2-ut.profilepassport.jp^
 ||metrics.li^
 ||bid.ctv.house^
 ||log.calomeal.com^
@@ -324394,6 +324406,10 @@ d4?appid*type*
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/243533
+@@||st-*.dynamicyield.com/st?$script,domain=easytoys.pl|easytoys.nl|easytoys.be|easytoys.es|easytoys.it
+! https://github.com/AdguardTeam/AdguardFilters/issues/243514
+@@||liveapi.yext.com^$domain=answers.business.lloydsbank.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/243470
 @@||power.mhi.com/modules/contrib/google_tag/js/gtm.js$domain=power.mhi.com
 @@||googletagmanager.com/gtm.js$domain=power.mhi.com
@@ -329648,6 +329664,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||biscuitbox.net^
 ||biztoolsbrief.com^
 ||blackbelted.com^
+||blackrednecks.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
 ||bleedlight.com^
@@ -330814,6 +330831,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||mundanenail.com^
 ||mushroomgods.com^
 ||mushywaste.com^
+||musicenforcer.com^
 ||musicflashcard.com^
 ||muteknife.com^
 ||mutemailbox.com^
